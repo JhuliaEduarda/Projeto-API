@@ -8,27 +8,24 @@
 2. ***No terminal:***
    > `node -v` --para verificar se instalou
 
-4. Clone o repositório
+3. Clone o repositório
+   > ***No terminal*** > `git clone https://github.com/JhuliaEduarda/Projeto-API`
    
-3. ***No terminal:***
+4. ***No terminal:***
    > `npm install`
 Esse comando instala:
 ***express*** → framework da API
 ***sequelize*** → ORM para banco de dados
 ***sqlite3*** → banco de dados
-***sequelize-cli*** → ferramenta para migrations (dev)
+***sequelize-cli*** → ferramenta para migrations
+   
    > `npm -v` --verifica se instalou 
-
-## Como rodar as migrations:
-1. ***No terminal:***
-   > `npx sequelize-cli db:migrate --config src/config/config.js`
-Isso cria todas as tabelas
 
 ## Como iniciar a aplicação:
 1. ***No terminal:***
    > `node src/server.js`
 
-## Principais Endpoints
+## Principais Endpoints no Postman 🟧
    > ***Criação de Aluno***
 >  ![Criação de Aluno](assets/aluno.png)
    > ***Criação de Curso***
@@ -42,4 +39,5 @@ Isso cria todas as tabelas
 
 
  
+
 
